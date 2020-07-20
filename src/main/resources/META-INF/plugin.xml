@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>sk.ursus.module-generator</id>
+    <name>Module generator</name>
+    <vendor email="info@vlastimilbrecka.sk">Vlastimil Brecka</vendor>
+
+    <description>Some description some description some description</description>
+
+    <actions>
+        <group id="GenerateModuleFromTemplateGroup" text="Generate contract impl group">
+            <action
+                    class="sk.ursus.modulegenerator.GenerateModuleFromTemplateAction"
+                    description="Generate module from Template"
+                    id="GenerateModuleFromTemplate"
+                    text="Generate Module from Template">
+                <add-to-group group-id="NewGroup" anchor="last"/>
+            </action>
+        </group>
+    </actions>
+</idea-plugin>
